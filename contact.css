@@ -1,0 +1,335 @@
+*{
+    margin: 0 ;
+    font-family: Arial;
+    border: border-box;
+ }
+ .back-image{
+ height: 700px;
+ width: 100%;
+  
+     background-image: url("contact_background.jpeg");
+     background-size:cover;
+ }
+ 
+.nav_bar{
+    height: 70px;
+ 
+    background-color:transparent ;
+    color: white; 
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+    
+  
+    
+}
+.logo{
+    height: 70px;
+    width: 70px;
+    background-image: url("logo.png");
+    background-size:cover;
+}
+.nav_tital{
+    height: 50px;
+    width: 300px;
+    margin-right: 150px;
+    font-family:cursive;
+     color: #00d6c8;
+     /* #4ecdc4 */
+     font-size:0.95rem;
+     font-weight: 700;
+     text-shadow:currentColor;
+
+
+}
+.nav_tital h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+
+
+}
+
+
+.nav_address{
+    height: 50px;
+    width: 530px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav_address P {
+    display: inline;
+    color: wheat;
+    
+   
+}
+.nav_address a{
+    display: inline;
+    text-decoration:none;
+    color: #f7fff7; 
+    font-size:1rem;
+    background-color: transparent;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    
+    color: #ffffff;
+    padding-bottom: 8px;
+    font-weight: 600;
+  
+border-bottom: 2px solid #000000;
+}
+.contact-box{
+    height: 370px;
+    width: 300px;
+    background-color: rgba(232, 232, 232, 0.605);
+    padding: 20px;
+    margin-left: 35%;
+    margin-top: 30px;
+    border-radius: 5px;
+    
+    
+}
+.contact-box:hover{
+    scale: 1.05;
+    box-shadow: 5px 5px 19px black;
+}
+.name{
+    height: 50px;
+    width: 300px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    background-color: transparent;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.name-box{
+    height: 42px;
+    width: 300px;
+    display: flex;
+    justify-content: start;
+    margin-top: 25px;
+}
+.profile-icon{
+    height: 100%;
+    width: 42px;
+    /* margin-top: 10px; */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* rgba(240, 248, 255, 0.539) */
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: rgba(240, 248, 255, 0.539) ;
+}
+.name-box i{
+    font-size: 22px;
+}
+.input-name{
+    
+    height: 40px;
+    width: 300px;
+    font-size: 1.2rem;
+    /* margin-right: 20px; */
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: rgba(240, 248, 255, 0.539);
+}
+.email-box{
+    height: 42px;
+    width: 300px;
+    display: flex;
+    justify-content: start;
+    margin-top: 25px;
+}
+.email-icon{
+    height: 100%;
+    width: 42px;
+    /* margin-top: 10px; */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* rgba(240, 248, 255, 0.539) */
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: rgba(240, 248, 255, 0.539) ;
+}
+.email-box i{
+    font-size: 22px;
+}
+.input-email{
+    
+    height: 40px;
+    width: 300px;
+    font-size: 1.2rem;
+    /* margin-right: 20px; */
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: rgba(240, 248, 255, 0.539);
+}
+/* .message-box{
+    height: 75px;
+    width: 300px;
+   
+    align-items: normal;
+    
+} */
+.input-message{
+    height: 75px;
+    width: 300px;
+    font-size: 1.2rem;
+    /* margin-right: 20px; */
+    text-decoration: none;
+    margin-top: 25px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    display: flex;
+    justify-content: start;
+   
+    background-color: rgba(240, 248, 255, 0.539);
+    
+}
+.button{
+    height: 40px;
+    width: 250px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 20px;
+    align-self: center;
+    
+}
+.input-button{
+    height: 40px;
+    width: 250px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    transition: all ease 0.2s;
+    background-color:rgba(51, 153, 243, 0.778) ;
+}
+.input-button p{
+    font-size: 1.2rem;
+}
+.input-button:active{
+    scale: 0.9;
+    box-shadow: 5px 5px 19px black;
+}
+ /* Existing CSS code */
+
+/* Media query for screens smaller than 575px (typical mobile devices) */
+@media(max-width: 575px){
+    .back-image{
+        height: 10000px; /* Adjust height for smaller screens */
+        width: 700px; /* Adjust width for smaller screens */
+    }
+
+    .nav_bar{
+        height: 200px;
+        width: 100%; /* Adjust width for smaller screens */
+        flex-direction: column; /* Arrange items vertically for smaller screens */
+        align-items: center; /* Center items horizontally for smaller screens */
+    }
+    .nav_tital{
+        height: 50px;
+        width: auto;
+        
+    
+    
+    }
+
+    .nav_tital h1{
+        font-size: 3.5rem; /* Increase font size for smaller screens */
+    }
+    .nav_address{
+        width: 700px;
+    }
+    .nav_address a{
+        
+        font-size:1.5rem;
+        
+    }
+    .contact-box{
+        height: 600px; /* Adjust height for smaller screens */
+        width: 80%; /* Adjust width for smaller screens */
+        margin: 50px auto; /* Center the contact box */
+    }
+    .name{
+        height: 50px;
+        width: auto;
+        font-size: 1.9rem;
+        font-weight: 600;
+        background-color: transparent;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+    .name-box{
+        height: 60px;
+        width: 80%;
+        display: flex;
+        justify-content: start;
+        margin-top: 25px;
+    }
+    .email-box{
+        height: 60px;
+        width: 80%;
+        display: flex;
+        justify-content: start;
+        margin-top: 25px;
+    }
+    .email-icon i{
+        font-size:30px;
+    }
+    .input-name,
+    .input-email,
+    .input-message{
+        width: 100%; /* Adjust input width for smaller screens */
+       /* margin: 10px auto; Center inputs */
+    }
+    .input-name{
+    
+        height: 60px;
+        width: 80%px;
+        font-size: 1.9rem;
+        /* margin-right: 20px; */
+       
+    }
+    .input-email{
+    
+        height: 60px;
+        width: 80%px;
+        font-size: 1.9rem;
+        /* margin-right: 20px; */
+       
+    }
+    .input-message{
+        height: 80px;
+        width: 80%px;
+        font-size: 1.9rem;
+        /* margin-right: 20px; */
+        
+        
+    }
+    .button{
+        height: 60px;
+        width: 80%;
+       margin-top: 25px;
+        
+    }
+
+    .input-button{
+        width: 80%; /* Adjust button width for smaller screens */
+        /* margin: 20px auto; Center button */
+    }
+}

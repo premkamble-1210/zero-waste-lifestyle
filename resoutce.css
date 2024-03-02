@@ -1,0 +1,447 @@
+*{
+    margin: 0 ;
+    font-family: Arial;
+    border: border-box;
+ }
+ .back-image{
+ height:auto;
+ 
+  
+     background-image: url("back-color.jpeg");
+     background-size:cover;
+ }
+ 
+.nav_bar{
+    height: 70px;
+ 
+    background-color:transparent ;
+    color: white; 
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+  
+    
+}
+.nav_tital{
+    height: 50px;
+    width: 300px;
+    margin-right: 50px;
+    /* font-family:cursive; */
+     color: #4ecdc4;
+     font-size:1.9rem;
+     font-weight: 700;
+
+
+}
+.nav_tital p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+
+
+}
+
+
+.nav_address{
+    height: 50px;
+    width: 530px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav_address P {
+    display: inline;
+    color: wheat;
+    
+   
+}
+.nav_address a{
+    display: inline;
+    text-decoration:none;
+    color: #f7fff7; 
+    font-size:1rem;
+    background-color: transparent;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    
+    color: #ffffff;
+    padding-bottom: 8px;
+    font-weight: 600;
+  
+border-bottom: 2px solid #000000;
+}
+.resouces-tital{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: 2px solid transparent;
+    border-radius:5%;
+    background-color: transparent;
+    align-items: center;
+    backdrop-filter: blur(2px);
+}
+.tital p{
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+.main-box{
+    width: 100%;
+    height: 1300px;
+    background-color: transparent;
+    
+    /* display: flex;
+    justify-content:center;
+    */
+
+}
+.sub-box1{
+    height: 160px;
+    height: 150px;
+    width: 90%;
+    /* #cdcdcd  */
+    background-color:rgba(255, 255, 255, 0.61) ;
+    border-radius: 20px;
+    margin-left: 52px;
+    display: flex;
+    justify-content:space-evenly;
+   
+   
+   
+    /* Safari 6.0 - 9.0 */
+   
+}
+.sub-box1:hover{
+    background-color:#949292ce ;
+}
+.book-img1{
+    height: 150px;
+    width: 300px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image10{
+    height: 130px;
+    width: 160px;
+    background-image: url("big\ green.jpg");
+    background-size: cover;
+    margin-right: 20px;
+}
+.image10:hover{
+    scale: 1.1;
+    box-shadow: 5px 5px 19px black;
+}
+.book-info1{
+    height: 130px;
+    width: 800px;
+    margin-top: 25px;
+   margin-right: 20px;
+    background-color: transparent;
+    align-items: center;
+}
+.booktital1{
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    display: flex;
+    font-size: 1.3rem;
+    justify-content:start;
+}
+.booktital1 a{
+    text-decoration: none;
+    color: black;
+}
+.a:hover{
+    scale: 0.4;
+    color: rgb(202, 118, 58);
+}
+.auther1{
+    font-size: 0.9rem;
+}
+.space{
+    height: 30px;
+    width: 100%;
+    background-color: transparent;
+}
+.image11{
+    height: 130px;
+    width: 160px;
+    background-image: url("Garbage\ Land\ On\ the\ Secret\ Trail\ of\ Trash.jpg");
+    background-size: cover;
+    margin-right: 20px;
+}
+.image11:hover{
+    scale: 1.1;
+    box-shadow: 5px 5px 19px black;
+}
+.image12{
+    height: 130px;
+    width: 160px;
+    background-image: url("Bottlemania\ How\ Water\ Went\ on\ Sale\ and\ Why\ We\ Bought\ It.jpg");
+    background-size: cover;
+    margin-right: 20px;
+}
+.image12:hover{
+    scale: 1.1;
+    box-shadow: 5px 5px 19px black;
+}
+.image13{
+    height: 130px;
+    width: 160px;
+    background-image: url("The\ Zero\ Waste\ Home.jpg");
+    background-size: cover;
+    margin-right: 20px;
+}
+.image13:hover{
+    scale: 1.1;
+    box-shadow: 5px 5px 19px black;
+}
+.image14{
+    height: 130px;
+    width: 160px;
+    background-image: url("That\'s\ a\ Wrap.png");
+    background-size: cover;
+    margin-right: 20px;
+}
+.image14:hover{
+    scale: 1.1;
+    box-shadow: 5px 5px 19px black;
+}
+.image17{
+    height: 130px;
+    width: 160px;
+    background-image: url("Resources\,\ Environment\ and\ Sustainability.jpg");
+    background-size: cover;
+    margin-right: 20px;
+}
+.image17:hover{
+    scale: 1.1;
+    box-shadow: 5px 5px 19px black;
+}
+/* Articles */
+.Articles{
+    height: auto;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+}
+.Articles iframe:hover{
+    
+        
+        box-shadow: 5px 5px 19px black;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+  line-height: 1.5;
+  font-family: 'Poppins', sans-serif;
+}
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.container{
+  max-width: 1170px;
+  margin:auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  list-style: none;
+}
+.footer{
+  background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before{
+  content: '';
+  position: absolute;
+  left:0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+  color: #ffffff;
+  padding-left: 8px;
+}
+.footer-col .social-links a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255,255,255,0.2);
+  margin:0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+  color: #24262b;
+  background-color: #ffffff;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 5px gray;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgba(216, 255, 158, 0.64);
+    border-radius: 10px;
+
+}
+@media(max-width: 574px){
+    .back-image{
+        width: 750px;
+
+        }
+    
+    .nav_bar{
+        width: 100%;
+        height: auto;
+        display: list-item;
+
+    }
+    .nav_address{
+        width: auto;
+        top: auto;
+        font-size: 1.9rem;
+        /* bottom: 0; */
+        
+    }
+    .main-titalbox{
+       
+        height: auto;
+        width: auto;
+        display: flex;
+       justify-content: center;
+        background-color:transparent;
+        
+    }
+    .main-tital p{
+        /* text-align: center; */
+        font-family:initial;
+        font-weight: 700;
+        font-size: 1.9rem;
+    }
+    .resouces-tital{
+        height: 200px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        border: 2px solid transparent;
+        border-radius:5%;
+        background-color: transparent;
+        align-items: center;
+        backdrop-filter: blur(2px);
+    }
+    .tital p{
+        font-size: 2rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 700;
+    }
+    .main-box{
+       
+        height: 1300px;
+        background-color: transparent;
+        
+        display:table-row;
+        justify-content:start;
+       
+    
+    }
+    .sub-box1{
+        height: 200px;
+        
+        width: 700px;
+       
+        /* margin-right: 50%; */
+        display: flex;
+        justify-content: space-around;
+       
+       
+        /* Safari 6.0 - 9.0 */
+       
+    }
+    .sub-box1:hover{
+        background-color:#949292ce ;
+    }
+    .book-img1{
+        height: 90px;
+        margin-top:50px;
+        width: 150px;
+        background-color: transparent;
+        
+    }
+    .image10{
+        /* height: 130px;
+        width: 160px; */
+        background-image: url("big\ green.jpg");
+        background-size: cover;
+        margin-right: 20px;
+    }
+    .image10:hover{
+        scale: 1.1;
+        box-shadow: 5px 5px 19px black;
+    }
+    .book-info1{
+        height: 130px;
+        width: 450px;
+        margin-top: 25px;
+       margin-right: 20px;
+        background-color: transparent;
+        align-items: center;
+    }
+    .booktital1{
+        width: 400px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 600;
+        display: flex;
+        font-size: 1.3rem;
+        justify-content:start;
+    }
+    .booktital1 a{
+        text-decoration: none;
+        color: black;
+    }
+}

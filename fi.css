@@ -1,0 +1,13 @@
+body{
+    background-color:aquamarine;
+}
+
+button{
+    height: 50px;
+    width: 40px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    background-color: red;
+    color: white;
+}

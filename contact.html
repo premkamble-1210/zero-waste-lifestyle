@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div class="back-image">
+        <header class="header">
+            <div class="nav_bar">
+                <div class="logo"></div>
+               <div class="nav_tital">
+                <p><h1>Zero waste lifestyle</h1></p>
+               </div>
+                <div class="nav_address ">
+                    <div class="nav_blog border"><p id="blog "><a href="blog.html">Blog</a></p></div>
+                    <div class="nav_about border"><p id="about "><a href="about_us.html">About Us</a></p></div>
+                    <!-- <div class="nav_shop border"><p id="shop "><a href="#">Shop</a></p></div> -->
+                    <div class="nav_join border"><p id="join "><a href="https://whatsapp.com/channel/0029VaEr4Vb0G0XgZOsl6o2h" target="_blank">join for community</a></p></div>
+                    <!-- <div class="nav_contact border"><p id="contact "><a href="#">contact</a></p></div> -->
+                    <div class="nav_Resources border"><p id="Resources "><a href="Resources.html">Resources</a></p></div>
+                    </div>
+    
+            </div>
+    
+        </header>
+        <main>
+            <div class="contact-box">
+                <div class="name">Contact us</div>
+                <div class="name-box">
+                    <div class="profile-icon">
+                <i class="fa-solid fa-user"></i>
+            </div>
+                    <input type="text" placeholder="Name" class="input-name" id="name">
+                </div>
+                <div class="email-box">
+                    <div class="email-icon">
+                    <i class="fa-solid fa-envelope"></i>
+            </div>
+                    <input type="email" placeholder="Email" class="input-email" id="email">
+                </div>
+                <div class="message-box">
+                    <input type="text" placeholder="Message" class="input-message" id="message">
+                </div>
+
+                <div class="button">
+                    <button class="input-button" value="button" onclick="send()"><p>Send Message</p></button>
+                </div>
+
+            </div>
+            <script src="https://smtpjs.com/v3/smtp.js">
+            </script>
+            <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+            <script>
+                function send() {
+                    var name=document.getElementById("name").value;
+                    var email=document.getElementById("email").value;
+                    var message=document.getElementById("message").value;
+                    
+                    var body="Name :"+name+"<br/> Email :"+email+"<br/> Message :"+message;
+
+                    console.log(body);
+                    Email.send({
+                       Host : "smtp.elasticemail.com",
+                       Username : "premkamble301@gmail.com",
+                       Password : "0CBCD1772E04235181FD371095166146A6F1",
+                    //    premkamble301@gmail.com
+                       To : 'pk5988897@gmail.com',
+                       From : "premkamble301@gmail.com",
+                       Subject : "Message ",
+                       Body : body
+                        }).then(
+                       message => {
+                        if (message=='OK') {
+                            swal("Done", "Your data successfully received", "success");
+                        }
+                        else{
+                            swal("Something wrong !", "Your data is not received", "error");
+                        }
+                       }
+                       );
+                    
+                }
+            </script>
+        </main>
+       </div> 
+       
+</body>
+</html>

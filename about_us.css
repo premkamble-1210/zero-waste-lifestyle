@@ -1,0 +1,145 @@
+*{
+    margin: 0 ;
+    font-family: Arial;
+    border: border-box;
+ }
+ .back-image{
+ height: 700px;
+ width: 100%;
+  
+     background-image: url("contact_background.jpeg");
+     background-size:cover;
+ }
+ 
+.nav_bar{
+  
+    height: 70px;
+ 
+    background-color:transparent ;
+    color: white; 
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+    
+  
+    
+}
+.logo{
+    height: 70px;
+    width: 70px;
+    background-image: url("logo.png");
+    background-size:cover;
+}
+.nav_tital{
+    height: 50px;
+    width: 300px;
+    margin-right: 150px;
+    font-family:cursive;
+     color: #00d6c8;
+     /* #4ecdc4 */
+     font-size:0.95rem;
+     font-weight: 700;
+     text-shadow:currentColor;
+
+
+}
+.nav_tital h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+
+
+}
+
+
+.nav_address{
+    height: 50px;
+    width: 530px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav_address P {
+    display: inline;
+    color: wheat;
+    
+   
+}
+.nav_address a{
+    display: inline;
+    text-decoration:none;
+    color: #000000; 
+    font-size:1rem;
+    background-color: transparent;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    
+    color: #ffffff;
+    padding-bottom: 8px;
+    font-weight: 600;
+  
+border-bottom: 2px solid #000000;
+}
+main {
+    padding: 20px;
+    height: 100px;
+    font-size: 2rem;
+  }
+
+  .about-section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: 80%;
+  }
+  .about-section samp {
+    font-weight: 600;
+  }
+
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ddd;
+    margin-top: 200px;
+  }
+  /* Existing CSS... */
+
+/* Add this at the end for responsiveness */
+@media screen and (max-width: 768px) {
+    .nav_bar {
+      flex-direction: column;
+      height: auto;
+      padding: 10px;
+    }
+  
+    .nav_tital {
+      margin-right: 0;
+      text-align: center;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .nav_address {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .nav_address div {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+  
+    .about-section {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    footer {
+      margin-top: 500px;
+    }
+  }
+  

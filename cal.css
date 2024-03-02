@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: black;
+    color: white;
+    
+    align-items: center;
+    text-align: center;
+    
+
+}
+.btn{
+    height: 25vmin;
+   width: 35vmax;
+    align-items: center;
+    margin-left: 35%;
+    display: flex;
+    justify-content: space-between;
+   
+    /* background-color: aquamarine; */
+}
+.funbtn{
+    height: 50px;
+    width: 80px;
+    background-color: antiquewhite;
+    font-weight: 900;
+    font-size: 2rem;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+}
+.ans{
+    font-size: 3rem;
+    font-weight: 700;
+}
+input{
+    height: 100px;
+    width: 500px;
+    font-size: 2rem;
+    border: 2px solid white;
+}

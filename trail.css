@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    background-color: black;
+}
+header{
+    height: 150px;
+    width: 100%;
+    /* #2272ff */
+}
+.navbar{
+
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.logo{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: rgba(240, 248, 255, 0.168);
+}
+.logo-img{
+    height: 100%;
+    width: 100%;
+    background-image: url("logo.png");
+    background-size:cover;
+}
+.brandname{
+    height: 60px;
+    width: auto;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brandname span{
+    font-size: 2.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    color: #2272ff;
+    text-shadow:0 0 20px #ffffff;
+}
+.navaddrese{
+    height: 100px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    margin-left: 80px;
+}
+.navaddrese a{
+    font-style: normal;
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    
+    color: #ffffff;
+    padding-bottom: 8px;
+    font-weight: 600;
+  
+border-bottom: 2px solid #000000;
+}
+.joinbutton{
+    height: 100px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.join{
+    height: 50px;
+    width: 150px;
+    background-color: rgba(6, 22, 22, 0.405);
+    border-radius: 50px;
+    font-size: 1.5rem;
+    color: white;
+}
+.join:hover{
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.47) ;
+    
+
+}
+.join:active{
+    scale: 0.92;
+    
+}
+.brainimag{
+    height: 500px;
+    width: 100%;
+    background-image: url("C:\Users\Prem\OneDrive\Desktop\HTML\WhatsApp Image 2024-01-06 at 15.54.54_6d0e9c22.jpg");
+    background-size: contain;
+}
